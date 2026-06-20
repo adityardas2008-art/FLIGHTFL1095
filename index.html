@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flight FL1095</title>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FL1095 | Destination Forever</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
+<div id="loader">
+
+<div class="terminal">
+
+<div class="terminal-header">
+
+<div class="dot red"></div>
+
+<div class="dot yellow"></div>
+
+<div class="dot green"></div>
+
+<span>FL1095 Terminal</span>
+
+</div>
+
+<div class="terminal-body">
+
+<p id="line1"></p>
+
+<p id="line2"></p>
+
+<p id="line3"></p>
+
+<p id="line4"></p>
+
+<div id="progressContainer">
+
+<div id="progressBar"></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<section id="intro">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h3 class="small-title">
+
+FL1095
+
+</h3>
+
+<h1 id="quote">
+
+Some journeys are measured in miles...
+
+</h1>
+
+<p id="subQuote"></p>
+
+<button id="beginBtn">
+
+✈ BEGIN BOARDING
+
+</button>
+
+</div>
+
+</section>
+
+<audio id="airportAmbience" loop>
+
+<source src="assets/audio/airport.mp3" type="audio/mpeg">
+
+</audio>
+
+<audio id="piano" loop>
+
+<source src="assets/audio/piano.mp3" type="audio/mpeg">
+
+</audio>
+
+<audio id="clickSound">
+
+<source src="assets/audio/boarding.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
